@@ -1,0 +1,23 @@
+{
+  "name": "@prosper/backend",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@prosper/db": "*",
+    "@trpc/server": "^10.43.4",
+    "dotenv": "^16.5.0",
+    "fastify": "^4.24.3",
+    "superjson": "^2.2.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "prosper",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "yarn workspace @prosper/web dev",
+    "dev:backend": "yarn workspace @prosper/backend dev",
+    "build:web": "yarn workspace @prosper/web build",
+    "build:backend": "yarn workspace @prosper/backend build",
+    "db:push": "yarn workspace @prosper/db push",
+    "db:seed": "yarn workspace @prosper/db seed",
+    "db:generate": "yarn workspace @prosper/db generate",
+    "db:studio": "supabase studio"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.43.3",
+    "@trpc/react-query": "^10.43.3",
+    "@trpc/server": "^10.43.3"
+  }
+}
