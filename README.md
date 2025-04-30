@@ -2,6 +2,8 @@
 
 A telehealth platform for supporting individuals with neurodevelopmental conditions like ADHD and Autism.
 
+![Prosper Health App](https://github.com/user-attachments/assets/a7bd95b1-e6e9-4018-9ea1-502e26231b96)
+
 ## Tech Stack
 
 - **TypeScript Monorepo**: Single repository for backend and frontend
